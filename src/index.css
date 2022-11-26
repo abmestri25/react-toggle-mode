@@ -15,7 +15,7 @@ body {
   color: rgb(248 250 252);
 }
 
-.light{
+.light {
   background-color: rgb(248 250 252);
   color: rgb(30 41 59);
 }
@@ -47,10 +47,9 @@ body {
   padding: 3px;
   cursor: pointer;
   transition: 0.3s;
-  margin : 0 20px;
+  margin: 0 20px;
 }
 
-/* this is for dot inside checkbox */
 .switch label::after {
   content: "";
   display: inherit;
@@ -60,7 +59,6 @@ body {
   background: rgb(248 250 252);
 }
 
-/* this will apply on all the checkboxes which are checked having single label after checkbox input */
 .switch input:checked + label {
   border-color: rgb(30 41 59);
 }
@@ -75,27 +73,7 @@ body {
   border-radius: 0;
 }
 
-footer{
+footer {
   position: absolute;
   bottom: 20px;
 }
-
-/* NOTES */
-/* 
-    div p {
-        this will select all the p tag which are inside div wheather it is nested inside div
-    }
-    
-    div ~ p {
-    this will select all the p which are immediately after div in one hierarchy only ,p tags should not be nested
-    }
-    
-    div > p {
-    this will select only child p tags inside div
-    }
-    
-    div + p {
-    this will select only one p tag immediately after a div, p tags should not be nested.
-    }
-
-*/

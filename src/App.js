@@ -6,7 +6,7 @@ function App() {
   const [theme, setTheme] = useState(false);
 
   return (
-    <div className={theme ? " container light" : "container dark"}>
+    <div className={`container ${theme ? "light" : "dark"} `}>
       <Switch theme={theme} setTheme={setTheme} />
       <Footer/>
     </div>
